@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence
+		http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
+    version="2.1">
+
+    <persistence-unit name="jpastart" transaction-type="JTA">
+        <jta-data-source>jdbc/jpastart</jta-data-source>
+
+        <class>jpastart.reserve.model.User</class>
+        <class>jpastart.reserve.model.Room</class>
+        <class>jpastart.reserve.model.Hotel</class>
+        <class>jpastart.reserve.model.Review</class>
+        <class>jpastart.guide.model.City</class>
+        <class>jpastart.guide.model.Sight</class>
+
+        <exclude-unlisted-classes>true</exclude-unlisted-classes>
+
+        <properties>
+            <property name="eclipselink.logging.level.sql" value="FINE"/>
+            <property name="eclipselink.logging.parameters" value="true"/>
+        </properties>
+
+    </persistence-unit>
+
+</persistence>

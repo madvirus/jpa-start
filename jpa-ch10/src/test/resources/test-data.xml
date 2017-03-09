@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="team">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>T1</value>
+            <value>팀1</value>
+        </row>
+        <row>
+            <value>T2</value>
+            <value>팀2</value>
+        </row>
+    </table>
+
+    <table name="player">
+        <column>player_id</column>
+        <column>name</column>
+        <column>salary</column>
+        <column>team_id</column>
+        <row>
+            <value>P1</value>
+            <value>선수1</value>
+            <value>5000</value>
+            <value>T1</value>
+        </row>
+        <row>
+            <value>P2</value>
+            <value>선수2</value>
+            <value>3000</value>
+            <value>T1</value>
+        </row>
+
+        <row>
+            <value>P3</value>
+            <value>선수3</value>
+            <value>0</value>
+            <null/>
+        </row>
+    </table>
+
+    <table name="location">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>LOC01</value>
+            <value>관악구</value>
+        </row>
+    </table>
+
+    <table name="engineer">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>ENG001</value>
+            <value>최고수</value>
+        </row>
+        <row>
+            <value>ENG002</value>
+            <value>중수리</value>
+        </row>
+        <row>
+            <value>ENG003</value>
+            <value>정상화</value>
+        </row>
+    </table>
+
+    <table name="loc_eng">
+        <column>location_id</column>
+        <column>list_idx</column>
+        <column>engineer_id</column>
+        <row>
+            <value>LOC01</value>
+            <value>0</value>
+            <value>ENG001</value>
+        </row>
+        <row>
+            <value>LOC01</value>
+            <value>1</value>
+            <value>ENG002</value>
+        </row>
+        <row>
+            <value>LOC01</value>
+            <value>2</value>
+            <value>ENG003</value>
+        </row>
+    </table>
+
+    <table name="location3">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>LOC01</value>
+            <value>관악구</value>
+        </row>
+    </table>
+
+    <table name="engineer3">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>ENG001</value>
+            <value>최고수</value>
+        </row>
+        <row>
+            <value>ENG002</value>
+            <value>중수리</value>
+        </row>
+        <row>
+            <value>ENG003</value>
+            <value>정상화</value>
+        </row>
+    </table>
+
+    <table name="loc_eng3">
+        <column>location_id</column>
+        <column>map_key</column>
+        <column>engineer_id</column>
+        <row>
+            <value>LOC01</value>
+            <value>MAIN</value>
+            <value>ENG001</value>
+        </row>
+        <row>
+            <value>LOC01</value>
+            <value>SUB</value>
+            <value>ENG002</value>
+        </row>
+    </table>
+
+    <table name="location2">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>LOC01</value>
+            <value>관악구</value>
+        </row>
+    </table>
+
+    <table name="engineer2">
+        <column>id</column>
+        <column>name</column>
+        <column>location_id</column>
+        <column>list_idx</column>
+        <row>
+            <value>ENG001</value>
+            <value>최고수</value>
+            <value>LOC01</value>
+            <value>0</value>
+        </row>
+        <row>
+            <value>ENG002</value>
+            <value>중수리</value>
+            <value>LOC01</value>
+            <value>1</value>
+        </row>
+        <row>
+            <value>ENG003</value>
+            <value>정상화</value>
+            <value>LOC01</value>
+            <value>2</value>
+        </row>
+    </table>
+
+    <table name="performance">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>PF001</value>
+            <value>한국무용</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>공연X</value>
+        </row>
+    </table>
+
+    <table name="person">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>P01</value>
+            <value>최승희</value>
+        </row>
+        <row>
+            <value>P02</value>
+            <value>한성준</value>
+        </row>
+        <row>
+            <value>P03</value>
+            <value>비보이</value>
+        </row>
+        <row>
+            <value>P04</value>
+            <value>국악인</value>
+        </row>
+        <row>
+            <value>P05</value>
+            <value>자유인</value>
+        </row>
+    </table>
+
+    <table name="perf_person">
+        <column>performance_id</column>
+        <column>person_id</column>
+        <row>
+            <value>PF001</value>
+            <value>P01</value>
+        </row>
+        <row>
+            <value>PF001</value>
+            <value>P02</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>P01</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>P03</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>P04</value>
+        </row>
+    </table>
+</dataset>

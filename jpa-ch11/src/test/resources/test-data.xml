@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="membership_card">
+        <column>card_number</column>
+        <column>user_email</column>
+        <column>expiry_date</column>
+        <column>enabled</column>
+
+        <row>
+            <value>5678</value>
+            <value>gildong@dooly.net</value>
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+        <row>
+            <value>4040</value>
+            <null/>
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+        <row>
+            <value>5050</value>
+            <null/>
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+    </table>
+
+    <table name="user">
+        <column>email</column>
+        <column>name</column>
+        <column>create_date</column>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>최범균</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+        <row>
+            <value>gildong@dooly.net</value>
+            <value>고길동</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+    </table>
+
+</dataset>

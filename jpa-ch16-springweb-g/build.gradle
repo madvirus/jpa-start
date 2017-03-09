@@ -1,0 +1,33 @@
+apply plugin: 'java'
+apply plugin: 'war'
+apply from: 'https://raw.github.com/akhikhl/gretty/master/pluginScripts/gretty.plugin'
+
+gretty {
+	servletContainer = 'jetty9'
+	contextPath = '/jpa-ch16-springweb'
+}
+
+war {
+	baseName = 'jpa-ch16-springweb'
+	version = '1.0'
+}
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile('org.springframework:spring-orm:4.3.5.RELEASE')
+	compile('org.springframework:spring-context:4.3.5.RELEASE')
+	compile('org.hibernate:hibernate-core:5.2.6.Final')
+	compile('com.mchange:c3p0:0.9.5.2')
+	compile('mysql:mysql-connector-java:5.1.39')
+	compile('log4j:log4j:1.2.17')
+	compile('org.springframework:spring-webmvc:4.3.5.RELEASE')
+	providedCompile('javax.servlet:javax.servlet-api:3.1.0')
+	providedCompile('javax.servlet.jsp:javax.servlet.jsp-api:2.3.1')
+	compile('javax.servlet:jstl:1.2')
+}

@@ -1,0 +1,16 @@
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+targetCompatibility = 1.8
+
+repositories {
+	mavenCentral()
+}
+
+dependencies {
+	compile('org.hibernate:hibernate-core:5.2.6.Final')
+	compile('org.hibernate:hibernate-c3p0:5.2.6.Final')
+	compile('mysql:mysql-connector-java:5.1.39')
+	testCompile('junit:junit:4.12')
+	testCompile('org.dbunit:dbunit:2.5.2')
+}

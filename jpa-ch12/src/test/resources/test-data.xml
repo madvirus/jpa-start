@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+
+    <table name="performance">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>PF001</value>
+            <value>한국무용</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>공연X</value>
+        </row>
+    </table>
+
+    <table name="person">
+        <column>id</column>
+        <column>name</column>
+        <row>
+            <value>P01</value>
+            <value>최승희</value>
+        </row>
+        <row>
+            <value>P02</value>
+            <value>한성준</value>
+        </row>
+        <row>
+            <value>P03</value>
+            <value>비보이</value>
+        </row>
+        <row>
+            <value>P04</value>
+            <value>국악인</value>
+        </row>
+        <row>
+            <value>P05</value>
+            <value>자유인</value>
+        </row>
+    </table>
+
+    <table name="perf_person">
+        <column>performance_id</column>
+        <column>person_id</column>
+        <row>
+            <value>PF001</value>
+            <value>P01</value>
+        </row>
+        <row>
+            <value>PF001</value>
+            <value>P02</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>P01</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>P03</value>
+        </row>
+        <row>
+            <value>PF002</value>
+            <value>P04</value>
+        </row>
+    </table>
+</dataset>

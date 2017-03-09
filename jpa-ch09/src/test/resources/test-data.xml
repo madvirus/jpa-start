@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="membership_card">
+        <column>card_number</column>
+        <column>user_email</column>
+        <column>expiry_date</column>
+        <column>enabled</column>
+
+        <row>
+            <value>5678</value>
+            <value>gildong@dooly.net</value>
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+        <row>
+            <value>4040</value>
+            <null />
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+        <row>
+            <value>5050</value>
+            <null />
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+    </table>
+
+    <table name="user_best_sight">
+        <column>email</column>
+        <column>title</column>
+        <column>description</column>
+
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>서울랜드</value>
+            <value>아이와 함께 자주 간 곳</value>
+        </row>
+    </table>
+    <table name="user">
+        <column>email</column>
+        <column>name</column>
+        <column>create_date</column>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>최범균</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+        <row>
+            <value>gildong@dooly.net</value>
+            <value>고길동</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+    </table>
+
+    <table name="user_keyword">
+        <column>user_email</column>
+        <column>keyword</column>
+        <row>
+            <value>gildong@dooly.net</value>
+            <value>서울</value>
+        </row>
+        <row>
+            <value>gildong@dooly.net</value>
+            <value>부여</value>
+        </row>
+        <row>
+            <value>gildong@dooly.net</value>
+            <value>경주</value>
+        </row>
+
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>역사</value>
+        </row>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>고구려</value>
+        </row>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>고조선</value>
+        </row>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>조선</value>
+        </row>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>부여</value>
+        </row>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>전통음식</value>
+        </row>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>이순신</value>
+        </row>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>세종대왕</value>
+        </row>
+    </table>
+
+    <table name="room_info">
+        <column>number</column>
+        <column>name</column>
+        <column>description</column>
+        <column>createtime</column>
+        <row>
+            <value>R101</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+        <row>
+            <value>R102</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+    </table>
+
+    <table name="hotel">
+        <column>id</column>
+        <column>name</column>
+        <column>grade</column>
+        <column>zipcode</column>
+        <column>address1</column>
+        <column>address2</column>
+        <row>
+            <value>H100-01</value>
+            <value>베스트웨스턴 구로호텔</value>
+            <value>STAR4</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 1128-1</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>여의도모델</value>
+            <value>STAR1</value>
+            <null />
+            <null />
+            <null />
+        </row>
+    </table>
+
+    <table name="hotel_property">
+        <column>hotel_id</column>
+        <column>prop_name</column>
+        <column>prop_value</column>
+
+        <row>
+            <value>H100-01</value>
+            <value>VIEW</value>
+            <value>좋음</value>
+        </row>
+        <row>
+            <value>H100-01</value>
+            <value>NOISE</value>
+            <value>다소 시끄러움</value>
+        </row>
+
+        <row>
+            <value>H100-02</value>
+            <value>VIEW</value>
+            <value>4</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>NOISE</value>
+            <value>1</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>AIR</value>
+            <value>3</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>WATER</value>
+            <value>5</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>TRANSPORT</value>
+            <value>3</value>
+        </row>
+    </table>
+
+    <table name="hotel_property2">
+        <column>hotel_id</column>
+        <column>prop_name</column>
+        <column>prop_value</column>
+        <column>type</column>
+
+        <row>
+            <value>H100-01</value>
+            <value>VIEW</value>
+            <value>5</value>
+            <value>int</value>
+        </row>
+        <row>
+            <value>H100-01</value>
+            <value>NOISE</value>
+            <value>1</value>
+            <value>int</value>
+        </row>
+
+        <row>
+            <value>H100-02</value>
+            <value>VIEW</value>
+            <value>4</value>
+            <value>int</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>NOISE</value>
+            <value>1</value>
+            <value>int</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>AIR</value>
+            <value>3</value>
+            <value>int</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>WATER</value>
+            <value>5</value>
+            <value>int</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>TRANSPORT</value>
+            <value>3</value>
+            <value>int</value>
+        </row>
+    </table>
+
+    <table name="hotel_review">
+        <column>id</column>
+        <column>hotel_id</column>
+        <column>rate</column>
+        <column>comment</column>
+        <column>rating_date</column>
+
+        <row>
+            <value>1</value>
+            <value>H100-01</value>
+            <value>5</value>
+            <value>직원분도 매우 친절하고 좋았어요.</value>
+            <value>2016-06-01 10:00:00</value>
+        </row>
+        <row>
+            <value>2</value>
+            <value>H100-01</value>
+            <value>3</value>
+            <value>전반적으로 무난함</value>
+            <value>2016-06-01 10:25:00</value>
+        </row>
+        <row>
+            <value>3</value>
+            <value>H100-01</value>
+            <value>4</value>
+            <value>좋았는데 전망이 약간 아쉬웠음</value>
+            <value>2016-06-01 11:00:00</value>
+        </row>
+        <row>
+            <value>4</value>
+            <value>H100-01</value>
+            <value>4</value>
+            <value>조식이 마음에 들었음</value>
+            <value>2016-06-01 12:00:00</value>
+        </row>
+        <row>
+            <value>5</value>
+            <value>H100-01</value>
+            <value>3</value>
+            <value>호텔 주변이 좀 시끄러움</value>
+            <value>2016-06-01 12:30:00</value>
+        </row>
+        <row>
+            <value>6</value>
+            <value>H100-01</value>
+            <value>4</value>
+            <value>호텔치곤 가격이 싸서 괜찮았음</value>
+            <value>2016-06-01 11:00:00</value>
+        </row>
+    </table>
+
+    <table name="id_gen">
+        <column>entity</column>
+        <column>nextid</column>
+        <row>
+            <value>country</value>
+            <value>1</value>
+        </row>
+    </table>
+    <table name="city">
+        <column>id</column>
+        <column>name</column>
+    </table>
+
+    <table name="real_user_log">
+        <column>id</column>
+        <column>review_id</column>
+        <column>used_date</column>
+    </table>
+
+    <table name="itinerary">
+        <column>id</column>
+        <column>name</column>
+        <column>description</column>
+        <row>
+            <value>1</value>
+            <value>부여</value>
+            <value>수학여행</value>
+        </row>
+    </table>
+
+    <table name="itinerary_site">
+        <column>itinerary_id</column>
+        <column>list_idx</column>
+        <column>site</column>
+        <column>time</column>
+        <row>
+            <value>1</value>
+            <value>0</value>
+            <value>부소산성</value>
+            <value>90</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>1</value>
+            <value>낙화암</value>
+            <value>30</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>2</value>
+            <value>정림사지</value>
+            <value>60</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>3</value>
+            <value>궁남지</value>
+            <value>45</value>
+        </row>
+    </table>
+
+    <table name="sight">
+        <column>id</column>
+        <column>name</column>
+        <column>zipcode</column>
+        <column>address1</column>
+        <column>address2</column>
+        <column>eng_zipcode</column>
+        <column>eng_addr1</column>
+        <column>eng_addr2</column>
+
+        <row>
+            <value>1</value>
+            <value>경복궁</value>
+            <value>03045</value>
+            <value>서울시 종로구</value>
+            <value>세종로 1-1</value>
+            <value>03045</value>
+            <value>Jongno-gu, Seoul</value>
+            <value>1-1, Sejong-ro</value>
+        </row>
+    </table>
+    <table name="sight_detail">
+        <column>sight_id</column>
+        <column>hours_op</column>
+        <column>holidays</column>
+        <column>facilities</column>
+        <row>
+            <value>1</value>
+            <value>09~17시</value>
+            <value>매주 화요일</value>
+            <value>안내 설명</value>
+        </row>
+    </table>
+    <table name="sight_rec_item">
+        <column>sight_id</column>
+        <column>name</column>
+        <column>type</column>
+        <row>
+            <value>1</value>
+            <value>광화문</value>
+            <value>WALL</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>근정전</value>
+            <value>ARCH</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>사정전</value>
+            <value>ARCH</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>교태전</value>
+            <value>ARCH</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>동궁</value>
+            <value>ARCH</value>
+        </row>
+        <row>
+            <value>1</value>
+            <value>경희루</value>
+            <value>PARTY</value>
+        </row>
+    </table>
+</dataset>

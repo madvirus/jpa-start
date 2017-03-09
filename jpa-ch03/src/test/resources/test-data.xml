@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="user">
+        <column>email</column>
+        <column>name</column>
+        <column>create_date</column>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>최범균</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+    </table>
+
+    <table name="room_info">
+        <column>number</column>
+        <column>name</column>
+        <column>description</column>
+        <column>createtime</column>
+        <row>
+            <value>R101</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+        <row>
+            <value>R102</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+    </table>
+
+    <table name="hotel">
+        <column>id</column>
+        <column>name</column>
+        <column>grade</column>
+        <row>
+            <value>H100-01</value>
+            <value>최고 호텔</value>
+            <value>STAR5</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>최고 호텔</value>
+            <value>STAR3</value>
+        </row>
+    </table>
+
+    <table name="id_gen">
+        <column>entity</column>
+        <column>nextid</column>
+        <row>
+            <value>country</value>
+            <value>1</value>
+        </row>
+    </table>
+    <table name="city">
+        <column>id</column>
+        <column>name</column>
+    </table>
+</dataset>

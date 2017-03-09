@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="membership_card">
+        <column>card_number</column>
+        <column>user_email</column>
+        <column>expiry_date</column>
+        <column>enabled</column>
+
+        <row>
+            <value>5678</value>
+            <value>gildong@dooly.net</value>
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+        <row>
+            <value>4040</value>
+            <null />
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+        <row>
+            <value>5050</value>
+            <null />
+            <value>2020-12-31 23:59:59</value>
+            <value>true</value>
+        </row>
+    </table>
+
+    <table name="user_best_sight">
+        <column>email</column>
+        <column>title</column>
+        <column>description</column>
+
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>서울랜드</value>
+            <value>아이와 함께 자주 간 곳</value>
+        </row>
+    </table>
+    <table name="user">
+        <column>email</column>
+        <column>name</column>
+        <column>create_date</column>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>최범균</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+        <row>
+            <value>gildong@dooly.net</value>
+            <value>고길동</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+    </table>
+
+    <table name="room_info">
+        <column>number</column>
+        <column>name</column>
+        <column>description</column>
+        <column>createtime</column>
+        <row>
+            <value>R101</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+        <row>
+            <value>R102</value>
+            <value>일반 101호</value>
+            <value>2-3인실</value>
+            <value>2016-06-01 09:00:00</value>
+        </row>
+    </table>
+
+    <table name="hotel">
+        <column>id</column>
+        <column>name</column>
+        <column>grade</column>
+        <column>zipcode</column>
+        <column>address1</column>
+        <column>address2</column>
+        <row>
+            <value>H100-01</value>
+            <value>베스트웨스턴 구로호텔</value>
+            <value>STAR4</value>
+            <value>08393</value>
+            <value>서울시 구로구</value>
+            <value>구로동 1128-1</value>
+        </row>
+        <row>
+            <value>H100-02</value>
+            <value>여의도모델</value>
+            <value>STAR1</value>
+            <null />
+            <null />
+            <null />
+        </row>
+    </table>
+
+    <table name="hotel_review">
+        <column>id</column>
+        <column>hotel_id</column>
+        <column>rate</column>
+        <column>comment</column>
+        <column>rating_date</column>
+
+        <row>
+            <value>1</value>
+            <value>H100-01</value>
+            <value>5</value>
+            <value>직원분도 매우 친절하고 좋았어요.</value>
+            <value>2016-06-01 10:00:00</value>
+        </row>
+        <row>
+            <value>2</value>
+            <value>H100-01</value>
+            <value>3</value>
+            <value>전반적으로 무난함</value>
+            <value>2016-06-01 10:25:00</value>
+        </row>
+        <row>
+            <value>3</value>
+            <value>H100-01</value>
+            <value>4</value>
+            <value>좋았는데 전망이 약간 아쉬웠음</value>
+            <value>2016-06-01 11:00:00</value>
+        </row>
+        <row>
+            <value>4</value>
+            <value>H100-01</value>
+            <value>4</value>
+            <value>조식이 마음에 들었음</value>
+            <value>2016-06-01 12:00:00</value>
+        </row>
+        <row>
+            <value>5</value>
+            <value>H100-01</value>
+            <value>3</value>
+            <value>호텔 주변이 좀 시끄러움</value>
+            <value>2016-06-01 12:30:00</value>
+        </row>
+        <row>
+            <value>6</value>
+            <value>H100-01</value>
+            <value>4</value>
+            <value>호텔치곤 가격이 싸서 괜찮았음</value>
+            <value>2016-06-01 11:00:00</value>
+        </row>
+    </table>
+
+    <table name="id_gen">
+        <column>entity</column>
+        <column>nextid</column>
+        <row>
+            <value>country</value>
+            <value>1</value>
+        </row>
+    </table>
+    <table name="city">
+        <column>id</column>
+        <column>name</column>
+    </table>
+
+    <table name="real_user_log">
+        <column>id</column>
+        <column>review_id</column>
+        <column>used_date</column>
+    </table>
+
+</dataset>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="user">
+        <column>email</column>
+        <column>name</column>
+        <column>create_date</column>
+        <row>
+            <value>madvirus@madvirus.net</value>
+            <value>최범균</value>
+            <value>2016-06-05 01:02:03</value>
+        </row>
+    </table>
+</dataset>
