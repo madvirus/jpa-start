@@ -70,3 +70,11 @@ create table jpastart.sight_detail (
   holidays varchar(255),
   facilities varchar(255)
 ) engine innodb character set utf8;
+
+create table jpastart.month_charge (
+  hotel_id varchar(255) not null,
+  year_mon varchar(255) not null,
+  charge_amt int,
+  unpay_amt int,
+  primary key (hotel_id, year_mon)
+) engine innodb character set utf8;

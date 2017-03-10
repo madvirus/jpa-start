@@ -11,6 +11,7 @@
         <class>jpastart.reserve.model.Room</class>
         <class>jpastart.reserve.model.Hotel</class>
         <class>jpastart.reserve.model.Review</class>
+        <class>jpastart.reserve.model.MonthCharge</class>
         <class>jpastart.guide.model.City</class>
         <class>jpastart.guide.model.Sight</class>
 
