@@ -20,6 +20,7 @@
         <class>jpastart.guide.model.Itinerary</class>
         <class>jpastart.team.Team</class>
         <class>jpastart.team.Player</class>
+        <class>jpastart.guide.model.BestSightSummary</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
