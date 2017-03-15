@@ -150,4 +150,23 @@
             <value>1000KRW</value>
         </row>
     </table>
+
+    <table name="category">
+        <column>id</column>
+        <column>name</column>
+        <column>crt_dtm</column>
+        <column>crt_empid</column>
+        <column>creation_ip</column>
+
+        <row>
+            <value>CAT01</value>
+            <value>카테고리1</value>
+            <value>2017-03-10 11:21:00</value>
+            <value>jungmi</value>
+            <value>1.2.3.4</value>
+        </row>
+    </table>
+    <table name="seller">
+    </table>
+
 </dataset>

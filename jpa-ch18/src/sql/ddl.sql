@@ -61,3 +61,19 @@ create table jpastart.item (
   price varchar(100)
 ) engine innodb character set utf8;
 
+create table jpastart.category (
+  id varchar(100) PRIMARY KEY,
+  name varchar(100),
+  crt_dtm datetime,
+  crt_empid varchar(20),
+  creation_ip varchar(16)
+) engine innodb character set utf8;
+
+create table jpastart.seller (
+  id varchar(100) PRIMARY KEY,
+  code varchar(100),
+  crt_dtm datetime,
+  crt_empid varchar(20),
+  crt_ip varchar(16)
+) engine innodb character set utf8;
+

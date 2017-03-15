@@ -21,6 +21,8 @@
         <class>jpastart.authlog.AuthLog</class>
         <class>jpastart.item.Item</class>
         <class>jpastart.common.MoneyConverter</class>
+        <class>jpastart.item.Seller</class>
+        <class>jpastart.item.Category</class>
 
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 
