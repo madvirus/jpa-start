@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<dataset>
+    <table name="account">
+        <column>account_num</column>
+        <column>balance</column>
+
+        <row>
+            <value>02-008</value>
+            <value>1000</value>
+        </row>
+    </table>
+
+    <table name="customer">
+        <column>id</column>
+        <column>ver</column>
+        <column>secret_code</column>
+
+        <row>
+            <value>gildong</value>
+            <value>3</value>
+            <value>123456</value>
+        </row>
+    </table>
+
+</dataset>
